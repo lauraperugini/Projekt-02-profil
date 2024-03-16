@@ -19,6 +19,7 @@ tlačítko twitter          #1da1f2
 h1  {
   font-size: 25px;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hlavicka {
@@ -29,7 +30,7 @@ h1  {
 .obsah {
   padding: 20px;
   color: #bdc3c7;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size:14px ;
 }
 
@@ -47,6 +48,13 @@ body {
 
 .montserrat-100 {
   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.source-sans-3-regular {
+  font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -73,7 +81,7 @@ body {
 li {
   display: inline-block;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 14px;
 }
 
