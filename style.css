@@ -14,8 +14,100 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
+/*Text profile*/
+
+h1  {
+  font-size: 25px;
+  color: white;
+}
+
+.hlavicka {
+  width: 100%;
+  position: relative;
+}
+
+.obsah {
+  padding: 20px;
+  color: #bdc3c7;
+}
+
+.profil {
+  width: 250px;
+  background-color: #31363b ;
+  margin: 50px;
+}
 
 body {
   background-color: #bdc3c7;
+  margin: 15px 0 0 15px;
 }
 
+
+/*Photo/Images*/
+
+.foto {
+  width: 100%;
+}
+
+.logo{
+  position: absolute;
+  bottom: -20px;
+  background-color: #b92e81 ;
+  border-radius: 50%;
+  right: 20px;
+}
+
+/*Links buttons*/
+
+.odkazy,
+li {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+}
+
+ul {
+  padding: 0;
+}
+
+.portfolio {
+  width: 100%;
+  color:#bdc3c7 ;
+  border-top: 1px solid #3f464d;
+  border-bottom: 1px solid #3f464d;
+  padding: 7px;
+}
+
+.portfolio:hover{
+  background-color: #e74c3c ;
+ }
+
+ .facebook,
+ .twitter {
+  width: 50%;
+  color: #bdc3c7;
+ }
+
+ .twitter:hover{
+  background-color: #1da1f2 ;
+ }
+
+ .facebook{
+  border-right: 1px solid #3f464d;
+ }
+
+ .facebook:hover{
+  background-color: #3b5998;
+ }
+
+ a {
+  font-size: 20px;
+  color:#bdc3c7;
+  text-decoration: none;
+  text-transform: uppercase;
+ }
+
+ .odkazy {
+  padding: 0;
+ }
+ 
