@@ -20,6 +20,7 @@ h1  {
   font-size: 25px;
   color: white;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .hlavicka {
@@ -77,12 +78,21 @@ body {
 
 /*Links buttons*/
 
-.odkazy,
+.odkazy {
+  padding: 0;
+ }
+
+.odkazy
 li {
   display: inline-block;
   text-align: center;
   font-family: "Source Sans 3", sans-serif;
   font-size: 14px;
+}
+
+.odkazy,
+a {
+  display: block;
 }
 
 ul {
@@ -128,7 +138,10 @@ ul {
   text-transform: uppercase;
  }
 
- .odkazy {
-  padding: 0;
+ .odkazy:hover {
+  color: white;
  }
+
+
+
  
