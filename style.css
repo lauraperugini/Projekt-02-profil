@@ -90,9 +90,13 @@ li {
   font-size: 14px;
 }
 
-.odkazy,
-a {
+.odkazy a {
   display: block;
+  padding: 8px;
+}
+
+.odkazy a:hover{
+  color: white;
 }
 
 ul {
@@ -105,7 +109,7 @@ ul {
   color:#bdc3c7 ;
   border-top: 1px solid #3f464d;
   border-bottom: 1px solid #3f464d;
-  padding: 7px;
+  padding: 0;
 }
 
 .portfolio:hover{
@@ -116,7 +120,6 @@ ul {
  .twitter {
   width: 50%;
   color: #bdc3c7;
-  padding: 7px;
  }
 
  .twitter:hover{
